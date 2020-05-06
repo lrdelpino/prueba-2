@@ -1,0 +1,19 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/1719376.jpg);
+  background-size: cover;
+}
+#container {
+  background: rgba(97,106,114,0.70);
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  text-align: center;
+  width: 60%;
+}
+p {
+  text-align: left;
+}
+
+.mensaje{
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>  
+  <div id="container"><h1 id="title">Encuesta sobre Dota</h1>
+    <p id="description">Esto es una encuesta para ver que heroe te parece mas roto</p>
+    <form action="/submit to dota2 page" id="survey-form">
+      <label id="name-label">Nombre: <input id="name" type="text" placeholder="Rupertson" minlength="5" maxlength="40" required pattern="[A-Za-z]+"></label><br>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="tumama@gmail.com" required></label><br>
+      <label id="number-label">Numero: <input id="number" type="number" placeholder="Celular" required pattern="[0-9]+"></label><br>
+      <label id="dropdown">Escoje un atributo: <select id="atributo">
+        <option value="inteligencia">Inteligencia</option>
+        <option value="fuerza">Fuerza</option>
+        <option value="agilidad">Agilidad</option>
+      </select>
+      </label><br>
+      <p>¿eres iniciado o veterano en el juego? </p>
+      <label for="Iniciado"><input type="radio" name="IyV" value="Iniciado">Iniciado</label>
+      <label for="Veterano"><input type="radio" name="IyV" value="Veterano">Veterano</label><br>
+      <p>¿Que posicion(es) juegas?</p>
+      <label><input type="checkbox" name="posicion" value="Hardsupp">Hardsupp</label>
+      <label><input type="checkbox" name="posicion" value="Semi-Supp">Semi-Supp</label>
+      <label><input type="checkbox" name="posicion" value="Core-3">Core-3</label>
+      <label><input type="checkbox" name="posicion" value="Core-2">Core-2</label>
+      <label><input type="checkbox" name="posicion" value="Core-1">Core-1</label><br>
+      <p class="mensaje">Mensaje para el autor:</p>
+      <p class="mensaje"><textarea name="mensaje" placeholder="Algo extra que añadir?"></textarea></p>
+      <p class="mensaje"><input id="submit" type="submit" value="Enviar mensaje"></p>  
+    </form>
+  </div>
+  </body>
+</html>
